@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🏡RoomScape🎨- Your Virtual RoomMate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>🎨 Cartoon Room Designer</h1><p>Drag & drop furniture & Resize using Arrow keys</p>
+    <button id="colorBtn">Generate Wall Color</button>
+
+    <!-- Room -->
+    <div class="room">
+        <div class="wall"></div>
+        <div class="floor"></div>
+        <div class="sofa"></div>
+        <div class="lamp"></div>
+    </div>
+
+    <!-- Furniture area -->
+    <div class="furniture-area">
+        <h2>🪑 Furniture & People</h2>
+        <div class="item" draggable="true" data-type="sofa">🛋 Sofa</div>
+        <div class="item" draggable="true" data-type="lamp">💡 Lamp</div>
+        <div class="item" draggable="true" data-type="person">🧍 Person</div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
